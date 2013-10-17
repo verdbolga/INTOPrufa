@@ -36,8 +36,8 @@ int main( )
 	{
 		cout << endl << endl << endl;
 		cout << "                ADALVALMYND " << endl << endl;
-		cout << "                      1. Spila NIM" << endl;
-		cout << "                      2. Birta reglurnar i NIM" << endl;
+		cout << "                      1. Spila LIM" << endl;
+		cout << "                      2. Birta reglurnar i LIM" << endl;
 		cout << "                      3. Haetta " << endl << endl;
 		cout << "                      Veldu 1, 2 eda 3:" << endl << endl;
 		cin >> val;
@@ -62,7 +62,7 @@ void spila( )
 {
 	int hruga[ 10 ];
 	cout << "*-------------------------------------------------------*" << endl;
-	cout << "                   NU SPILUM VID NIM!!" << endl;
+	cout << "                   NU SPILUM VID LIM!!" << endl;
 	cout << "*-------------------------------------------------------*" << endl;
 	cout << endl << endl;
 	cout << "Veljum med hve margar hrugur vid spilum. " << endl;
@@ -93,8 +93,8 @@ void spila( )
 
 void hjalp( )
 {
-	cout << "              UM NIM - LEIKINN " << endl << endl;
-	cout << "Leikurinn NIM er upprunninn fra Asiu thar sem hann var" << endl;
+	cout << "              UM LIM - LEIKINN " << endl << endl;
+	cout << "Leikurinn LIM er upprunninn fra Asiu thar sem hann var" << endl;
 	cout << "leikinn med steinvolum.  Reglurnar eru thessar: " << endl;
 	cout << "Keppendur setja einhvern fjolda af eldspytum i hrugur " << endl;
 	cout << "(their akveda sjalfir hve margar hrugur og hve margar " << endl;
